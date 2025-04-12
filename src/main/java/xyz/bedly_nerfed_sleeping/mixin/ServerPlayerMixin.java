@@ -1,7 +1,4 @@
-package com.example.examplemod.mixin;
-
-
-
+package xyz.bedly_nerfed_sleeping.mixin;
 
 import xyz.bedly_nerfed_sleeping.bedly_nerfed_sleeping;
 import net.minecraft.world.phys.Vec3;
@@ -42,8 +39,7 @@ public abstract class ServerPlayerMixin {
     private AABB bigger_monster_range(AABB old_range)
 	{
 		Vec3 bottom_center=old_range.getCenter();
-		double r=0;//range
-
+		double r=0;
 		bedly_nerfed_sleeping.LOGGER.info("("+bottom_center.x+","+bottom_center.y+","+bottom_center.z+")");
 
 		return new AABB(
