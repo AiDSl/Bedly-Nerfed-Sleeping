@@ -21,7 +21,7 @@ public class bedly_nerfed_sleeping
     */
    //slf4j logger
 
-   private static final Logger LOGGER = LogUtils.getLogger();
+   public static final Logger LOGGER = LogUtils.getLogger();
 
     public bedly_nerfed_sleeping()
     {
