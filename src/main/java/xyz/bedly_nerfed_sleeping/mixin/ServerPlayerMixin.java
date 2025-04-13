@@ -5,18 +5,13 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.Entity;
-//import java.util.List;
 //mixin org
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.*;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 //mixins
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.entity.player.Player;
 	//startSleepInBed
 	import net.minecraft.core.BlockPos;
 	import com.mojang.datafixers.util.Either;
