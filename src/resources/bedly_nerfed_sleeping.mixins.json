@@ -2,11 +2,12 @@
    "compatibilityLevel":"JAVA_17",
    "package":"xyz.bedly_nerfed_sleeping.mixin",
    "refmap":"bedly_nerfed_sleeping.refmap.json",
-   "mixins":["PlayerMixin","ServerPlayerMixin"],
+   "mixins":["ServerPlayerMixin"],
    "client":[],
    "server":[],
    "injectors":{
       "defaultRequire":1
    },
-   "required": true
+   "required": true,
+   "verbose":true
 }
